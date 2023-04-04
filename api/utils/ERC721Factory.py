@@ -27,7 +27,7 @@ class Erc721Factory:
         nonce = w3.eth.getTransactionCount(deployer_address)
 
         if NETWORK == "opt-mainnet":
-            transaction = self.contract.functions.createOptimismMintableERC721(
+            transaction = self.contract.functions.createzkSyncMintableERC721(
                 address, name, symbol
             ).buildTransaction(
                 {
@@ -40,7 +40,7 @@ class Erc721Factory:
             )
 
         elif NETWORK == "opt-goerli":
-            transaction = self.contract.functions.createOptimismMintableERC721(
+            transaction = self.contract.functions.createzkSyncMintableERC721(
                 address, name, symbol
             ).buildTransaction(
                 {

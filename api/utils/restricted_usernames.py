@@ -41,8 +41,7 @@ _d = (
     "vendas video videos visitor "
     "win ww www www1 www2 www3 www4 www5 www6 www7 wwww wws wwws web webmail website websites webmaster workshop "
     "xxx xpg you yourname yourusername yoursite yourdomain "
-    "optimism opt arbitrum arb quixotic quix quixnft quixotic_io quixoticio quixio stratos stratosnft "
-    "quixotic.eth quix0tic.eth stratos.eth quixnft.eth straotsnft.eth quix_app qx_app seaport opensea qx.eth quix.eth"
+    "zkSync zk arbitrum arb zerogallery zero zeronft zero.io zerogallerio  stratos stratosnft "
 )
 
 _d += (
